@@ -6,8 +6,8 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function AboutMe() {
     return (
 
-        <div className="pl-5 md:pl-32 lg:pl-52 xl:pl-[450px]">
-            <div class="flex flex-col border-2 border-black w-11/12 md:w-3/4 lg:w-2/3 xl:w-1/2 h-40 md:h-52 lg:h-60 xl:h-80 justify-around">
+        <div className="pl-5 sm:pl-20 md:pl-32 lg:pl-52 xl:pl-[450px] 2xl:pl-[500px]">
+            <div class="flex flex-col text-neutral-100 w-11/12 sm:w-10/12 md:w-3/4 lg:w-2/3 2xl:w-[600px] h-40 md:h-52 lg:h-60 xl:h-80 justify-around">
                 <div class="text-xs md:text-lg lg:text-xl xl:text-2xl bold font-mono">
                     - HELLO !
                 </div>
@@ -18,7 +18,7 @@ function AboutMe() {
                     I am a Bachelor of Computer Science graduate from University of Wollongong - Singapore Institute of Management.
                 </div>
 
-                <div className="flex flex-wrap border border-black justify-between fa-lg md:text-2xl lg:text-4xl w-1/2 xl:w-1/2">
+                <div className="flex flex-wrap justify-between text-cyan-500 fa-lg md:text-2xl lg:text-4xl w-1/2 xl:w-1/2">
                     <a href= "https://www.linkedin.com/in/raymondhalimm/" >
                         <FontAwesomeIcon icon={faLinkedin}/>
                     </a>
