@@ -45,20 +45,20 @@ function Projects () {
     return (
 
         <div id="projects" className="mr-10"> 
-            <div className="text-5xl font-mono bold pt-20">
+            <div className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-mono bold lg:pl-28 pt-20">
                 PROJECTS
             </div>
 
-            <div className="flex flex-row border border-black justify-between my-40">
-                <div className="flex flex-col border border-black w-1/2">
-                    <span className="text-3xl bold">
+            <div className="flex flex-col xl:flex-row border border-black justify-between my-10 lg:my-20 lg:mx-28 xl:mx-0 xl:my-40">
+                <div className="flex flex-col border border-black w-full xl:w-1/2">
+                    <span className="text-lg md:text-2xl xl:text-3xl bold">
                         DeepPurple
                     </span>
-                    <span className="py-3">
+                    <span className="text-xs md:text-sm xl:text-base py-3">
                         A web application software that analyzed uploaded Customer Service audio recordings and generates real-time transcriptions using Google’s speech-to-text API. 
                         These transcriptions are then analyzed by the GPT-3 API to produce insights that are leveraged to enhance customer experience and agent performance.
                     </span>
-                    <span>
+                    <span className="text-xs md:text-sm xl:text-base">
                         Tools used :
                         <ul className="list-disc pl-5">
                             <li>Spring Boot</li>
@@ -70,7 +70,7 @@ function Projects () {
                     </span>
                 </div>
 
-                <div className="w-[600px] h-56 border border-black sm:h-72 xl:h-80 2xl:h-[332px]">
+                <div className="w-full xl:w-[700px]  pt-10 lg:pt-0 border border-black h-56 md:h-[420px] lg:h-[500px] xl:h-[400px]">
                     <Carousel theme={customTheme} slideInterval={2000}>
                         <img src={landingPage} alt="Landing Page of DeepPurple"/>
                         <img src={landingPage2} alt="Landing Page 2 of DeepPurple"/>
@@ -87,16 +87,16 @@ function Projects () {
                 </div>
             </div>
 
-            <div className="flex flex-row border border-black justify-between my-60">
-                <div className="flex flex-col border border-black w-1/2 ">
-                    <span className="text-3xl bold">
+            <div className="flex flex-col xl:flex-row border border-black justify-between lg:mx-28 xl:mx-0 my-60">
+                <div className="flex flex-col border border-black w-full xl:w-1/2 ">
+                    <span className="text-lg md:text-2xl xl:text-3xl bold">
                         Research Conference Management Application
                     </span>
-                    <span className="py-3">
+                    <span className="text-xs md:text-sm xl:text-base py-3">
                         Research Conference Management System that supports four different user types, System Admins, Conference Chairs, Reviewers, and Authors with the purpose of supporting 
                         the submission of papers by Authors, the allocation of papers to Reviewers, and the acceptance and rejection of papers by Conference Chairs
                 </span>
-                    <span>
+                    <span className="text-xs md:text-sm xl:text-base">
                         Tools used :
                         <ul className="list-disc pl-5">
                             <li>PHP</li>
@@ -107,7 +107,7 @@ function Projects () {
                     </span>
                 </div>
 
-                <div className="w-[600px] h-56 border border-black sm:h-72 xl:h-80 2xl:h-[332px]">
+                <div className="w-full xl:w-[700px]  pt-10 lg:pt-0 border border-black h-56 md:h-[420px] lg:h-[500px] xl:h-[400px]">
                     <Carousel theme={customTheme}>
                         <img src={createAccPage} alt="Create Account Page"/>
                         <img src={loginPage} alt="Login Page"/>
@@ -122,15 +122,15 @@ function Projects () {
                 </div>
             </div>
 
-            <div className="flex flex-row border border-black justify-between my-60">
-                <div className="flex flex-col border border-black w-1/2">
-                    <span className="text-3xl bold">
+            <div className="flex flex-col xl:flex-row border border-black justify-between lg:mx-28 xl:mx-0 my-60">
+                <div className="flex flex-col border border-black w-full xl:w-1/2 ">
+                    <span className="text-lg md:text-2xl xl:text-3xl bold">
                         Excel Product Search Tool
                     </span>
-                    <span className="py-3">
+                    <span className="text-xs md:text-sm xl:text-base py-3">
                         A Python tool for efficiently searching specific product across multiple Excel sheets with uniform templates featuring distinct dataset  
                     </span>
-                    <span>
+                    <span className="text-xs md:text-sm xl:text-base">
                         Tools used :
                         <ul className="list-disc pl-5">
                             <li>Python</li>
@@ -138,7 +138,7 @@ function Projects () {
                     </span>
                 </div>
 
-                <div className="w-[600px] h-52 border border-black sm:h-64 xl:h-64 2xl:h-64">
+                <div className="w-full xl:w-[700px]  pt-10 xl:pt-0 border border-black h-52 md:h-80 lg:h-96 xl:h-80">
                     <Carousel slideInterval={5000}>
                         <img src={year} alt="Year Test"/>
                         <img src={month} alt="Month Test"/>

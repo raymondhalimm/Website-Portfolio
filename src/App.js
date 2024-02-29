@@ -12,7 +12,7 @@ function App() {
       <div class="pt-96 pb-40">
          
         <AboutMe/>
-        <div class="pt-96 pl-20">
+        <div class="pt-96 pl-5 xl:pl-20">
           <Projects/>
         </div>
         
