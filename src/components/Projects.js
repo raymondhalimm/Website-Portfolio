@@ -45,7 +45,7 @@ function Projects () {
     return (
 
         <div id="projects" className="mr-10"> 
-            <div className="text-neutral-100 underline text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-mono bold lg:pl-28 xl:pl-0 pt-20">
+            <div className="text-cyan-500 underline text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-mono bold lg:pl-28 xl:pl-0 pt-20">
                 PROJECTS
             </div>
 
