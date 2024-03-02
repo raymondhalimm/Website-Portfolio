@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function AboutMe() {
@@ -30,6 +30,9 @@ function AboutMe() {
                     </a>
                     <a href= "mailto:raymond.halim55@gmail.com" >
                         <FontAwesomeIcon icon={faEnvelope}/>
+                    </a>
+                    <a href= "https://wa.me/6585069658" >
+                        <FontAwesomeIcon icon={faWhatsapp}/>
                     </a>
                 </div>
             </div>
