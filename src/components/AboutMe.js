@@ -19,19 +19,19 @@ function AboutMe() {
                 </div>
 
                 <div className="flex flex-wrap justify-between text-cyan-500 fa-lg md:text-2xl lg:text-4xl w-1/2 xl:w-1/2">
-                    <a href= "https://www.linkedin.com/in/raymondhalimm/" >
+                    <a href= "https://www.linkedin.com/in/raymondhalimm/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin}/>
                     </a>
-                    <a href= "https://www.instagram.com/raymondhalimm?igsh=MWk1dXUzaWtqZm45&utm_source=qr" >
+                    <a href= "https://www.instagram.com/raymondhalimm?igsh=MWk1dXUzaWtqZm45&utm_source=qr" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faInstagram}/>
                     </a>
-                    <a href= "https://github.com/raymondhalimm" >
+                    <a href= "https://github.com/raymondhalimm" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub}/>
                     </a>
-                    <a href= "mailto:raymond.halim55@gmail.com" >
+                    <a href= "mailto:raymond.halim55@gmail.com" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faEnvelope}/>
                     </a>
-                    <a href= "https://wa.me/6585069658" >
+                    <a href= "https://wa.me/6585069658" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faWhatsapp}/>
                     </a>
                 </div>

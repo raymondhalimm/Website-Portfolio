@@ -20,7 +20,6 @@ import recAnalysis2 from "../assets/fyp/recAnalysis2.png";
 import recList from "../assets/fyp/recList.png";
 import sumAnalysis from "../assets/fyp/sumAnalysis1.png";
 import sumAnalysis2 from "../assets/fyp/sumAnalysis2.png";
-import uploadRecording from "../assets/fyp/uploadRecord.png";
 
 import year from "../assets/excel/year.png";
 import month from "../assets/excel/month.png";
@@ -49,7 +48,7 @@ function Projects () {
                 PROJECTS
             </div>
 
-            <div className="flex flex-col xl:flex-row justify-between my-10 lg:my-20 lg:mx-28 xl:mx-0 xl:my-40">
+            <div className="flex flex-col justify-between my-10 lg:my-20 lg:mx-28 xl:mx-0 xl:my-40">
                 <div className="flex flex-col w-full text-neutral-200 xl:w-1/2">
                     <span className="text-lg font-sans md:text-2xl xl:text-3xl bold">
                         DeepPurple
@@ -70,15 +69,15 @@ function Projects () {
                     </span>
                 </div>
 
-                <div className="w-full sm:w-[600px] md:w-[700px] pt-10 lg:pt-0  h-56 sm:h-96 md:h-[420px] lg:h-[400px] xl:h-[360px]">
-                    <Carousel theme={customTheme} slideInterval={2000}>
+                <div className="w-full sm:w-[600px] md:w-[700px] xl:w-[1200px] pt-10 lg:pt-0 xl:pt-10 h-56 sm:h-96 md:h-[420px] lg:h-[400px] xl:h-[360px] xl:h-[700px]">
+                    <Carousel theme={customTheme} slideInterval={5000} pauseOnHover>
                         <img src={landingPage} alt="Landing Page of DeepPurple"/>
                         <img src={landingPage2} alt="Landing Page 2 of DeepPurple"/>
                         <img src={firstFunction} alt="First Function of DeepPurple"/>
                         <img src={func2Intro} alt="Second Function Introduction"/>
                         <img src={employeeList} alt="Employee List Page"/>
                         <img src={recList} alt="Recording List Page"/>
-                        <img src={uploadRecording} alt="Uploading Recording"/>
+                        {/* <img src={uploadRecording} alt="Uploading Recording"/> */}
                         <img src={recAnalysis} alt="Recording Analysis Page 1"/>
                         <img src={recAnalysis2} alt="Recording Analysis Page 2"/>
                         <img src={sumAnalysis} alt="Summary Analysis Page 1"/>
@@ -87,7 +86,7 @@ function Projects () {
                 </div>
             </div>
 
-            <div className="flex flex-col xl:flex-row justify-between lg:mx-28 xl:mx-0 my-60">
+            <div className="flex flex-col justify-between lg:mx-28 xl:mx-0 my-60">
                 <div className="flex flex-col w-full text-neutral-200 xl:w-1/2 ">
                     <span className="text-lg font-sans md:text-2xl xl:text-3xl bold">
                         Research Conference Management Application
@@ -95,7 +94,7 @@ function Projects () {
                     <span className="text-xs font-serif md:text-sm xl:text-base py-3">
                         Research Conference Management System that supports four different user types, System Admins, Conference Chairs, Reviewers, and Authors with the purpose of supporting 
                         the submission of papers by Authors, the allocation of papers to Reviewers, and the acceptance and rejection of papers by Conference Chairs
-                </span>
+                    </span>
                     <span className="text-xs font-serif md:text-sm xl:text-base">
                         Tools used :
                         <ul className="list-disc pl-5">
@@ -107,8 +106,8 @@ function Projects () {
                     </span>
                 </div>
 
-                <div className="w-full sm:w-[600px] md:w-[700px]  pt-10 lg:pt-0 h-56 sm:h-96 md:h-[420px] lg:h-[410px] xl:h-[370px]">
-                    <Carousel theme={customTheme}>
+                <div className="w-full sm:w-[600px] md:w-[700px] xl:w-[1200px]  pt-10 lg:pt-0 xl:pt-10 h-56 sm:h-96 md:h-[420px] lg:h-[410px] xl:h-[700px]">
+                    <Carousel theme={customTheme} slideInterval={4500} pauseOnHover>
                         <img src={createAccPage} alt="Create Account Page"/>
                         <img src={loginPage} alt="Login Page"/>
                         <img src={authorPage} alt="Author Page"/>
@@ -122,7 +121,7 @@ function Projects () {
                 </div>
             </div>
 
-            <div className="flex flex-col xl:flex-row  justify-between lg:mx-28 xl:mx-0 my-60">
+            <div className="flex flex-col  justify-between lg:mx-28 xl:mx-0 my-60">
                 <div className="flex flex-col  w-full text-neutral-200 xl:w-1/2 ">
                     <span className="text-lg font-sans md:text-2xl xl:text-3xl bold">
                         Excel Product Search Tool
@@ -138,8 +137,8 @@ function Projects () {
                     </span>
                 </div>
 
-                <div className="w-full sm:w-[600px] md:w-[700px]  pt-10 xl:pt-0 h-52 sm:h-72 md:h-80 xl:h-72 ">
-                    <Carousel slideInterval={5000}>
+                <div className="w-full sm:w-[600px] md:w-[700px] xl:w-[1200px]  pt-10 h-52 sm:h-72 md:h-80 xl:h-[550px] ">
+                    <Carousel slideInterval={4000} pauseOnHover>
                         <img src={year} alt="Year Test"/>
                         <img src={month} alt="Month Test"/>
                         <img src={month2} alt = "Month 2 Test"/>
