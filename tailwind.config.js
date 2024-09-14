@@ -6,10 +6,46 @@ module.exports = {
     'node_modules/flowbite/lib/esm/**/*.js',
   ],
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        'underline': 'transform',
+      },
+      transformOrigin: {
+        'bottom-right': 'bottom right',
+        'bottom-left': 'bottom left',
+      },
+      scale: {
+        '0': '0',
+        '100': '1',
+      },
+    },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    function ({ addComponents }) {
+      addComponents({
+        '.underline-hover': {
+          position: 'relative',
+          display: 'inline-block',
+          '&::after': {
+            content: '""',
+            position: 'absolute',
+            left: '0',
+            bottom: '3px',
+            width: '100%',
+            height: '3px',
+            backgroundColor: 'currentColor',
+            transform: 'scaleX(0)',
+            transformOrigin: 'bottom right',
+            transition: 'transform 0.3s ease',
+          },
+          '&:hover::after': {
+            transform: 'scaleX(1)',
+            transformOrigin: 'bottom left',
+          },
+        },
+      });
+    },
   ],
 }
 
