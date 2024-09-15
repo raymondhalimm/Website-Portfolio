@@ -71,7 +71,7 @@ function Projects () {
     return (
 
         <div id="projects" class="ml-5 sm:ml-20"> 
-            <div className="text-cyan-400 underline-hover text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-mono bold lg:ml-28 xl:pl-0 pt-3">
+            <div className="text-cyan-400 underline-hover text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-mono bold lg:ml-28 xl:ml-0 pt-3">
                 PROJECTS
             </div>
 
