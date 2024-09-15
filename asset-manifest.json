@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Website-Portfolio/static/css/main.5d7ce440.css",
-    "main.js": "/Website-Portfolio/static/js/main.d1ea43e0.js",
+    "main.css": "/Website-Portfolio/static/css/main.40c10be3.css",
+    "main.js": "/Website-Portfolio/static/js/main.e58b9f14.js",
     "static/media/opRollupArch.png": "/Website-Portfolio/static/media/opRollupArch.e867c52f788b5f77be3d.png",
     "static/media/privTestnetKurtosis.png": "/Website-Portfolio/static/media/privTestnetKurtosis.fcb39f2cd5b062d87be6.png",
     "static/media/firstFunction.png": "/Website-Portfolio/static/media/firstFunction.d54c3402705b025205d8.png",
@@ -52,11 +52,11 @@
     "static/media/dev-ass.png": "/Website-Portfolio/static/media/dev-ass.6b2fe0732acede573757.png",
     "static/media/ccp.png": "/Website-Portfolio/static/media/ccp.bbf7c33bccce66b0b5fd.png",
     "index.html": "/Website-Portfolio/index.html",
-    "main.5d7ce440.css.map": "/Website-Portfolio/static/css/main.5d7ce440.css.map",
-    "main.d1ea43e0.js.map": "/Website-Portfolio/static/js/main.d1ea43e0.js.map"
+    "main.40c10be3.css.map": "/Website-Portfolio/static/css/main.40c10be3.css.map",
+    "main.e58b9f14.js.map": "/Website-Portfolio/static/js/main.e58b9f14.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d7ce440.css",
-    "static/js/main.d1ea43e0.js"
+    "static/css/main.40c10be3.css",
+    "static/js/main.e58b9f14.js"
   ]
 }
