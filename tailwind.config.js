@@ -33,7 +33,7 @@ module.exports = {
             left: '0',
             bottom: '3px',
             width: '100%',
-            height: '3px',
+            height: '1px',
             backgroundColor: 'currentColor',
             transform: 'scaleX(0)',
             transformOrigin: 'bottom right',
@@ -42,6 +42,11 @@ module.exports = {
           '&:hover::after': {
             transform: 'scaleX(1)',
             transformOrigin: 'bottom left',
+          },
+          '@screen sm': {
+            '&::after': {
+              height: '3px',  // For small screens
+            },
           },
         },
       });

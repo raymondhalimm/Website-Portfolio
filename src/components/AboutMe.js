@@ -39,7 +39,7 @@ function AboutMe() {
                 </ul>
                 <div class="h-[40%] w-0.5 mt-16 bg-cyan-400"></div>
             </div>
-            <div className="pl-20 sm:pl-20 md:pl-32 lg:pl-52 xl:pl-[450px] 2xl:pl-[500px]">
+            <div className="pl-12 sm:pl-20 md:pl-32 lg:pl-52 xl:pl-[450px] 2xl:pl-[500px]">
                 
                 <div class="flex flex-col w-11/12 sm:w-10/12 md:w-3/4 lg:w-2/3 2xl:w-[600px] h-40 md:h-52 lg:h-80 xl:h-100 justify-around">
                     <div class="text-xs text-neutral-100 text-opacity-80 md:text-lg lg:text-xl xl:text-2xl bold font-mono">
@@ -56,13 +56,13 @@ function AboutMe() {
                     </div>
                     <div class="my-5 flex">
                         <a href= "https://www.credly.com/badges/b4061291-e865-460c-a674-b7fe0886f985/public_url" target="_blank" rel="noopener noreferrer">
-                            <img src={ccp} class="w-20 md:w-24 xl:w-28 2xl:w-32 h-20 md:h-24 xl:h-28 2xl:h-32"></img>
+                            <img src={ccp} class="w-20 md:w-24 xl:w-28 2xl:w-32 h-20 md:h-24 xl:h-28 2xl:h-32 transform hover:-translate-y-2 duration-300 hover:opacity-70" alt="AWS Certified Cloud Practicioner Badge"></img>
                         </a>
                         <a href= "https://www.credly.com/badges/b6092c27-8a97-46b3-980d-74bf5183ac16/public_url" target="_blank" rel="noopener noreferrer">
-                            <img src={devAss} class="w-20 md:w-24 xl:w-28 2xl:w-32 h-20 md:h-24 xl:h-28 2xl:h-32 "></img>
+                            <img src={devAss} class="w-20 md:w-24 xl:w-28 2xl:w-32 h-20 md:h-24 xl:h-28 2xl:h-32 transform hover:-translate-y-2 duration-300 hover:opacity-70" alt="AWS Certified Developer - Associate Badge"></img>
                         </a>
                     </div>
-                    <div class="mt-10 text-base sm:text-lg text-neutral-100 text-opacity-80 lg:text-xl font-mono">
+                    <div class="mt-10 text-[10px] sm:text-lg text-neutral-100 text-opacity-80 lg:text-xl font-mono">
                         <Link activeClass="active" spy={true} smooth={true} to="projects" >
                             <button class="block mx-auto text-cyan-400 rounded underline-hover">
                                 TAKE A LOOK AT SOME PROJECTS I WORKED ON
