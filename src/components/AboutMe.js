@@ -5,6 +5,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { Link, animateScroll as scroll } from "react-scroll";
 import devAss from "../assets/dev-ass.png";
 import ccp from "../assets/ccp.png";
+import dataEng from "../assets/dataeng.png";
 
 function AboutMe() {
     return (
@@ -50,9 +51,10 @@ function AboutMe() {
                     </div>
                     
                     <div class="mt-5 text-sm text-neutral-100 text-opacity-80 lg:text-base font-serif">
-                        Certified cloud computing professional with a Bachelor’s degree in Computer Science (Big Data) from University of
-                        Wollongong. Passionate about the IT industry, eager to make meaningful contribution and committed to continuous
-                        learning and growth.
+                        Certified cloud computing professional with a Bachelor’s degree in Computer Science (Big Data) from University of Wollongong. 
+                        Experienced in managing and optimizing cloud infrastructure, with expertise in in applying machine learning frameworks, containerization and CI/CD tools. 
+                        Proven track record of deploying scalable cloud solutions, demonstrating initiative and creative problem-solving skills 
+                        while continuously evolving skillsets to stay ahead of emerging industry trends.
                     </div>
                     <div class="my-5 flex">
                         <a href= "https://www.credly.com/badges/b4061291-e865-460c-a674-b7fe0886f985/public_url" target="_blank" rel="noopener noreferrer">
@@ -60,6 +62,9 @@ function AboutMe() {
                         </a>
                         <a href= "https://www.credly.com/badges/b6092c27-8a97-46b3-980d-74bf5183ac16/public_url" target="_blank" rel="noopener noreferrer">
                             <img src={devAss} class="w-20 md:w-24 xl:w-28 2xl:w-32 h-20 md:h-24 xl:h-28 2xl:h-32 transform hover:-translate-y-2 duration-300 hover:opacity-70" alt="AWS Certified Developer - Associate Badge"></img>
+                        </a>
+                        <a href= "https://www.credly.com/badges/955b6a03-e7e0-41d4-9f78-3914edf70afb/public_url" target="_blank" rel="noopener noreferrer">
+                            <img src={dataEng} class="w-20 md:w-24 xl:w-28 2xl:w-32 h-20 md:h-24 xl:h-28 2xl:h-32 transform hover:-translate-y-2 duration-300 hover:opacity-70" alt="AWS Certified Developer - Associate Badge"></img>
                         </a>
                     </div>
                     <div class="mt-10 text-[10px] sm:text-lg text-neutral-100 text-opacity-80 lg:text-xl font-mono">
