@@ -52,6 +52,8 @@ import year from "../assets/excel/year.png";
 import month from "../assets/excel/month.png";
 import month2 from "../assets/excel/month2.png";
 
+import externalLink from "../assets/externallink.png"
+
 import { CustomFlowbiteTheme } from "flowbite-react";
 
 const customTheme : CustomFlowbiteTheme['carousel'] = {
@@ -77,8 +79,11 @@ function Projects () {
 
             <div className="flex flex-col justify-between my-10 mr-3 sm:mr-0 lg:my-20 lg:mx-28 xl:mx-0 xl:my-10">
                 <div className="flex flex-col w-full text-neutral-200 xl:w-1/2">
-                    <span className="text-lg font-sans md:text-2xl xl:text-3xl bold">
+                    <span className="text-lg w-auto font-sans md:text-2xl xl:text-3xl bold">
                         Blockscout
+                        <a href= "https://github.com/raymondhalimm/Blockscout" target="_blank" rel="noopener noreferrer">
+                            <img src={externalLink} class="text-blue-500 w-5 md:w-8 xl:w-10 2xl:w-10 h-5 md:h-8 xl:h-10 2xl:h-10 transform hover:-translate-y-2 duration-300 hover:opacity-70" alt="GitHub Link"></img>
+                        </a>
                     </span>
                     <span className="text-xs font-serif md:text-sm xl:text-base py-3">
                         Deployed and managed a blockchain explorer, gaining in-depth knowledge of EVM chains and their interactions. 
@@ -115,6 +120,9 @@ function Projects () {
                 <div className="flex flex-col w-full text-neutral-200 xl:w-1/2 ">
                     <span className="text-lg font-sans md:text-2xl xl:text-3xl bold">
                         Ethereum Private Testnet
+                        <a href= "https://github.com/raymondhalimm/Ethereum-Testnet-Contract-Deployment" target="_blank" rel="noopener noreferrer">
+                            <img src={externalLink} class="text-blue-500 w-5 md:w-8 xl:w-10 2xl:w-10 h-5 md:h-8 xl:h-10 2xl:h-10 transform hover:-translate-y-2 duration-300 hover:opacity-70" alt="GitHub Link"></img>
+                        </a>
                     </span>
                     <span className="text-xs font-serif md:text-sm xl:text-base py-3">
                         Deployed a private Ethereum network using Kurtosis, configuring multiple Geth nodes to simulate a controlled testing environment
@@ -144,6 +152,9 @@ function Projects () {
                 <div className="flex flex-col w-full text-neutral-200 xl:w-1/2 ">
                     <span className="text-lg font-sans md:text-2xl xl:text-3xl bold">
                         Ethereum Contract Deployment and Indexing
+                        <a href= "https://github.com/raymondhalimm/Ethereum-Testnet-Contract-Deployment" target="_blank" rel="noopener noreferrer">
+                            <img src={externalLink} class="text-blue-500 w-5 md:w-8 xl:w-10 2xl:w-10 h-5 md:h-8 xl:h-10 2xl:h-10 transform hover:-translate-y-2 duration-300 hover:opacity-70" alt="GitHub Link"></img>
+                        </a>
                     </span>
                     <span className="text-xs font-serif md:text-sm xl:text-base py-3">
                         Developed an ERC20 contract indexer to track USDT contract activities on Ethereum blockchain.
@@ -177,6 +188,9 @@ function Projects () {
                 <div className="flex flex-col w-full text-neutral-200 xl:w-1/2 ">
                     <span className="text-lg font-sans md:text-2xl xl:text-3xl bold">
                         Optimism Stack Testnet Chain
+                        <a href= "https://github.com/raymondhalimm/Optimism-Stack" target="_blank" rel="noopener noreferrer">
+                            <img src={externalLink} class="text-blue-500 w-5 md:w-8 xl:w-10 2xl:w-10 h-5 md:h-8 xl:h-10 2xl:h-10 transform hover:-translate-y-2 duration-300 hover:opacity-70" alt="GitHub Link"></img>
+                        </a>
                     </span>
                     <span className="text-xs font-serif md:text-sm xl:text-base py-3">
                         Established a local Ethereum Optimism stack to observe the deployment of a full operational L2 scaling technologies including its L1 and L2 network interactions
@@ -196,6 +210,9 @@ function Projects () {
                 <div className="flex flex-col w-full text-neutral-200 xl:w-1/2 ">
                     <span className="text-lg font-sans md:text-2xl xl:text-3xl bold">
                         DeepPurple
+                        <a href= "https://github.com/raymondhalimm/DeepPurple" target="_blank" rel="noopener noreferrer">
+                            <img src={externalLink} class="text-blue-500 w-5 md:w-8 xl:w-10 2xl:w-10 h-5 md:h-8 xl:h-10 2xl:h-10 transform hover:-translate-y-2 duration-300 hover:opacity-70" alt="GitHub Link"></img>
+                        </a>
                     </span>
                     <span className="text-xs font-serif md:text-sm xl:text-base py-3">
                         A web application software that analyzed uploaded Customer Service audio recordings and generates real-time transcriptions using Google’s speech-to-text API. 
@@ -234,6 +251,9 @@ function Projects () {
                 <div className="flex flex-col w-full text-neutral-200 xl:w-1/2 ">
                     <span className="text-lg font-sans md:text-2xl xl:text-3xl bold">
                         Research Conference Management Application
+                        <a href= "https://github.com/raymondhalimm/ResearchConferenceManagementApp" target="_blank" rel="noopener noreferrer">
+                            <img src={externalLink} class="text-blue-500 w-5 md:w-8 xl:w-10 2xl:w-10 h-5 md:h-8 xl:h-10 2xl:h-10 transform hover:-translate-y-2 duration-300 hover:opacity-70" alt="GitHub Link"></img>
+                        </a>
                     </span>
                     <span className="text-xs font-serif md:text-sm xl:text-base py-3">
                         Research Conference Management System that supports four different user types, System Admins, Conference Chairs, Reviewers, and Authors with the purpose of supporting 
