@@ -92,11 +92,11 @@ function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  {/* <a href={cv} target="_blank" rel="noreferrer">
+                  <a href={cv} target="_blank" rel="noreferrer">
                     <button class="block py-2 px-3 text-cyan-400 rounded border-[2px] border-cyan-400  md:py-0.5 px-2 transition-all hover:bg-cyan-600 hover:translate-x-[-4px] hover:translate-y-[-4px] duration-300 ">
                       Resume  
                     </button>
-                  </a> */}
+                  </a>
                 </li>
               </ul>
             </div>
