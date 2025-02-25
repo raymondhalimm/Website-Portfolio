@@ -28,7 +28,7 @@ function AboutMe() {
                         </a>
                     </li>
                     <li>
-                        <a href= "https://wa.me/6585069658" target="_blank" rel="noopener noreferrer">
+                        <a href= "https://wa.me/61489195339" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon class="duration-300 hover:text-cyan-600 transform hover:-translate-y-1" icon={faWhatsapp}/>
                         </a>
                     </li>
@@ -51,10 +51,14 @@ function AboutMe() {
                     </div>
                     
                     <div class="mt-5 text-sm text-neutral-100 text-opacity-80 lg:text-base font-serif">
-                        Certified cloud computing professional with a Bachelor’s degree in Computer Science (Big Data) from University of Wollongong. 
-                        Experienced in managing and optimizing cloud infrastructure, with expertise in in applying machine learning frameworks, containerization and CI/CD tools. 
-                        Proven track record of deploying scalable cloud solutions, demonstrating initiative and creative problem-solving skills 
-                        while continuously evolving skillsets to stay ahead of emerging industry trends.
+                        Driven and solution-oriented student pursuing a Master’s in Data Science at University of Technology Sydney,
+                        with a strong foundation in applying machine learning frameworks, data engineering, and statistical analysis. 
+                        <br />
+                        Demonstrated initiative and creative problem-solving skills in identifying manual workflow inefficiencies, 
+                        proposing and implementing solutions to improve data processing, availability, and transition to automated workflows.
+                        <br /> <br />
+                        Seeking internship or part-time opportunities in data science field which will allow me to leverage my strong problem-solving skills 
+                        and analytical skills while learning from seniors to further expand my expertise.
                     </div>
                     <div class="my-5 flex">
                         <a href= "https://www.credly.com/badges/b4061291-e865-460c-a674-b7fe0886f985/public_url" target="_blank" rel="noopener noreferrer">
