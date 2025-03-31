@@ -51,14 +51,15 @@ function AboutMe() {
                     </div>
                     
                     <div class="mt-5 text-sm text-neutral-100 text-opacity-80 lg:text-base font-serif">
-                        Driven and solution-oriented student pursuing a Master’s in Data Science at University of Technology Sydney,
+                        Driven and solution-oriented student pursuing a Master’s in Data Science at University of Technology Sydney, 
                         with a strong foundation in applying machine learning frameworks, data engineering, and statistical analysis. 
-                        <br />
+                        Currently an Operational Intelligence Intern at SafeWork NSW, focusing on quantitative analytical research on regulatory effectiveness.
+                        <br /> <br />
                         Demonstrated initiative and creative problem-solving skills in identifying manual workflow inefficiencies, 
                         proposing and implementing solutions to improve data processing, availability, and transition to automated workflows.
                         <br /> <br />
-                        Seeking internship or part-time opportunities in data science field which will allow me to leverage my strong problem-solving skills 
-                        and analytical skills while learning from seniors to further expand my expertise.
+                        Seeking data science-focused internship or part-time role to leverage my strong problem-solving and analytical skills, 
+                        while learning from senior professionals to further expand my expertise.
                     </div>
                     <div class="my-5 flex">
                         <a href= "https://www.credly.com/badges/b4061291-e865-460c-a674-b7fe0886f985/public_url" target="_blank" rel="noopener noreferrer">
